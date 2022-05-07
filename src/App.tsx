@@ -1,8 +1,5 @@
-function App() {
-  return (
-    <div className="flex gap-2">
-    </div>
-  )
-}
+import { Widget } from './components/Widget';
 
-export default App
+export function App() {
+  return <Widget />;
+}
